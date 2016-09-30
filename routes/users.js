@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
   //res.send('respond with a resource');
 
   //load a users view instead
-  var userList = ['Harsh', 'Prashant', 'Mahesh'];
+  var userList = ['Harsh', 'Prashant', 'Mahesh', 'Jacob'];
 
   res.render('users', { title: 'User List',
   users: userList
